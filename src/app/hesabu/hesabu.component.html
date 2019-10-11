@@ -1,16 +1,16 @@
 <form [formGroup]="mathForm" (ngSubmit)="onSubmit(mathForm.value)">
   <div>
     <label for="a">A</label>
-    <input type="text" id="a" name="a">
+    <input type="text" id="a" formControlName="a">
   </div>
  <div></div>
   <div>
     <label for="b">B</label>
-    <input type="text" id="b" name="b">
+    <input type="text" id="b" formControlName="b">
   </div>
   <div>
     <label for="operation">op</label>
-    <input type="text" id="operation" name="operation" >
+    <input type="text" id="operation" formControlName="operation" >
   </div>
 
 

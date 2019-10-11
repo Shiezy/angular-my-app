@@ -1,0 +1,19 @@
+<form [formGroup]="mathForm" (ngSubmit)="onSubmit(mathForm.value)">
+  <div>
+    <label for="a">A</label>
+    <input type="text" id="a" name="a">
+  </div>
+ <div></div>
+  <div>
+    <label for="b">B</label>
+    <input type="text" id="b" name="b">
+  </div>
+  <div>
+    <label for="operation">op</label>
+    <input type="text" id="operation" name="operation" >
+  </div>
+
+
+  <button class="button" type="submit">Calculate</button>
+
+</form>
